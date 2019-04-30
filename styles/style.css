@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Lato-Bold, sans-serif;
+}
+
+.center {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url("../img/header.jpg");
+    height: 100vh;
+    color: #fff;
+}
+
+nav {
+    width: 100%;
+    position: relative;
+}
+
+.main-menu {
+    float: right;
+    list-style-type: none;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+
+}
+
+.main-menu__item {
+    float: left;
+    margin-right: 30px;
+    text-transform: uppercase;
+}
+
+.main-menu__item:last-child {margin-right: 0}
+
+.title {
+    text-align: center;
+    height: 290px;
+    width: 500px;
+    text-transform: uppercase;
+    text-shadow:1px 1px 40px rgba(1, 1, 1, 0.55);
+}
+
+.title__pre-text {
+    font-family: "Times New Roman";
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: none;
+}
+
+.title__main {
+    font-size: 100px;
+}
+
+.title__button {
+    border: 3px solid white;
+    width: 260px;
+    height: 70px;
+    line-height: 70px;
+    margin: 15px auto;
+    font-size: 18px;
+    border-radius: 2px;
+}
+
+.title__subtitle {
+    font-size: 14px;
+}
+
+.title__subtitle .link { text-decoration: underline; }
+
+.title__subtitle .link:hover { cursor: pointer; }

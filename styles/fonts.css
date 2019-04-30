@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Lato-Bold; /* Имя шрифта */
+    src: url(../fonts/Lato/Lato-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Lato-Hairline; /* Имя шрифта */
+    src: url(../fonts/Lato/Lato-Hairline.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Lato-HairlineItalic; /* Имя шрифта */
+    src: url(../fonts/Lato/Lato-HairlineItalic.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Lato-Light; /* Имя шрифта */
+    src: url(../fonts/Lato/Lato-Light.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Lato-Regular; /* Имя шрифта */
+    src: url(../fonts/Lato/Lato-Regular.ttf); /* Путь к файлу со шрифтом */
+}
